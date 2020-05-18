@@ -1,5 +1,7 @@
 <?php
+use Router\Router;
+require '../vendor/autoload.php';
 
-//require '../vendor/autoload.php';
+$router = new Router($_GET['url']);
 
-echo $_GET['url'];
+$router->show();
