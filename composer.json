@@ -1,0 +1,10 @@
+{
+    "name": "laurentine/myapp",
+    "authors": [
+        {
+            "name": "Ekissi Vincent-Férié Ekissi",
+            "email": "arshey@live.fr"
+        }
+    ],
+    "require": {}
+}
