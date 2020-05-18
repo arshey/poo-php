@@ -1,5 +1,5 @@
 {
-    "name": "laurentine/myapp",
+    "name": "vince/myapp",
     "authors": [
         {
             "name": "Ekissi Vincent-Férié Ekissi",
@@ -9,7 +9,7 @@
 
     "autoload": {
         "psr-4": {
-            
+            "Router\\" : "routes/"
         }
     },
 
