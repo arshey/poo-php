@@ -2,7 +2,7 @@
 
 namespace App\Controllers;
 
-class BlogControllers{
+class BlogController{
 
     public function index(){
         echo 'je suis la homepage';
@@ -10,6 +10,11 @@ class BlogControllers{
 
     public function show(int $id){
         echo 'je suis le post '.$id;
+    }
+
+    public function about()
+    {
+        echo 'Je suis la page About';
     }
 
 }
